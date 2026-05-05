@@ -48,7 +48,7 @@ def toggle_theme():
         title.config(bg="#f0f9ff", fg="#0B0B25")
         result_label.config(bg="#f0f9ff", fg="#0B0B25")
 
-# 5. UI Elements
+
 country_var = tk.StringVar()
 dropdown = ttk.Combobox(root, textvariable=country_var, state="readonly")
 dropdown['values'] = list(country_data.keys())
